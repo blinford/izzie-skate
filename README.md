@@ -1,5 +1,7 @@
 simple godot game with custom physics script to simulate skateboard movement
 
+play here: https://blinford.github.io/izzie-skate/
+
 TODO:
 - improve models
   - replace cube with izzie
