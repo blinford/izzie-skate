@@ -1,6 +1,9 @@
 name: godot-ci
 on: push
 
+permissions:
+  contents: write
+
 env:
   GODOT_VERSION: 4.4.1
   EXPORT_NAME: izzie-skate
