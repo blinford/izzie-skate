@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://cuasg05ljuyha"]
 
-[ext_resource type="Script" uid="uid://d0fdsuv7phjda" path="res://coin.gd" id="1_d5gmh"]
+[ext_resource type="Script" uid="uid://d0fdsuv7phjda" path="res://coin/coin.gd" id="1_d5gmh"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_6qpsl"]
 
