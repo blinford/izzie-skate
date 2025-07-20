@@ -4,7 +4,7 @@ extends Node3D
 @onready var skatepark = $NavigationRegion3D/skatepark
 @onready var coin_spawn_timer = $CoinSpawnTimer
 
-var coin_scene := preload("res://coin.tscn")
+var coin_scene := preload("res://coin/coin.tscn")
 
 func _ready() -> void:
 	pass
