@@ -3,6 +3,7 @@ extends Node3D
 @onready var navigation_region := $NavigationRegion3D
 @onready var skatepark = $NavigationRegion3D/skatepark
 @onready var coin_spawn_timer = $CoinSpawnTimer
+@onready var sun := $Sun
 
 var coin_scene := preload("res://coin/coin.tscn")
 
@@ -10,6 +11,7 @@ func _ready() -> void:
 	pass
 
 func _process(delta: float) -> void:
+	#sun.rotation.x -= delta * 0.1
 	pass
 
 func _on_coin_spawn_timer_timeout() -> void:
